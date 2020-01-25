@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script >
+		function checkForm(form)
+		{
+			var num=form.phone.value;
+			if(isNaN(num)&&form.name.value==""){
+				alert("name is empty and please enter valid number");
+				return false;
+			}
+			else{
+				return true;
+			}
+			}
+		
+	</script>
+</head>
+<body>
+	<form name="form1" onsubmit="return checkForm(this)">
+
+Name :<input type="text" name="name"/><br>
+
+Phone :<input type="text" name="phone"/><br>
+
+<input type="submit"/>
+
+</form>
+</body>
+</html>

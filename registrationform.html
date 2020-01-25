@@ -1,0 +1,102 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+	<div bgcolor="">
+		<form action="" method="POST">
+			<table bgcolor="" width="50%" align="">
+				<tr>
+					<th colspan="2"><h3>Curriculum Vitae</h3></th>
+				</tr>
+				<tr>
+					<th>Name : </th>
+					<td>
+						<input type="text" name="name">
+						<big style="color:#ff0000"> *</big><br>
+						<span style="color:#ff0000"></span>
+					</td> 
+				</tr>
+                <tr>
+                	<th>Gender : </th>
+                	<td>
+                		<input type="radio" name="gender" value="Male" checked> Male <input type="radio" name="gender" value="female"> female 
+                	</td>
+                </tr>
+	            <tr>
+	            	<th>Email Id : </th>
+	            	<td>
+	            		<input type="email" name="email"> <big style="color:#ff0000"> *</big><br>
+	            		<span style="color:#ff0000"></span>
+	            	</td>
+	            </tr>
+	            <tr>
+	            	<th>Mobile : </th>
+	            	<td>
+	            		<input type="text" name="mobile" maxlength="10"> <big style="color:#ff0000"> *</big><br>
+	            		<span style="color:#ff0000"></span></td>
+	            </tr>
+	           	<tr>
+	           		<th>Correspondence Address : </th>
+	           		<td>
+	           			<textarea name="caddress">
+	           			</textarea> <big style="color:#ff0000"> *</big><br>
+	           			<span style="color:#ff0000"></span>
+		            </td>
+	            </tr>
+	            <tr>
+		        <th>Permanent Address : </th>
+		            <td>
+			            <textarea name="paddress" style="width:56%"></textarea> 
+			            <big style="color:#ff0000"> *</big><br>
+			            <span style="color:#ff0000"></span>
+		            </td>
+	            </tr>
+	           	<tr>
+		        <th>Language : </th>
+		            <td>
+			            <input type="checkbox" name="lang" value="Hindi"> Hindi <input type="checkbox" name="language1" value="English" checked> English<input type="checkbox" name="language2" value="other"> Other
+		            </td>
+	            </tr>
+                <tr>
+		        <th>Programming Languages known : </th>
+		            <td>
+		            	<select name="plang" style="height:25px;width:57%">
+				        <option value="">Please select your field</option>
+				        <option value="HTML/CSS">HTML/CSS</option>
+				        <option value="PHP">PHP	</option>
+				        <option value="c/C++">C/C++</option>
+		                </select> <big style="color:#ff0000"> *</big><br>
+                 		<span style="color:#ff0000"></span>
+		            </td>
+	            </tr>
+	            <tr>
+		        <th>Interested areas : </th>
+		            <td>
+		            	<select name="areas" style="height:25px;width:57%">
+				        <option value="">Please select your field</option>
+				        <option value="Software Development">Software Development</option>
+				        <option value="Cloud Computing">Cloud Computing</option>
+		                </select> 
+		                <big style="color:#ff0000"> *</big><br>
+		                <span style="color:#ff0000"></span>
+		            </td>
+	            </tr>
+	            <tr>
+					<th>Upload CV: </th>
+					<td>
+						<input type="file" name="resume"><big style="color:#ff0000">
+							<span style="color:#ff0000"></span>	</big></td>
+				</tr>
+	           	<tr>
+		        <th colspan="2">
+			            <input type="Submit" name="verify" value="Submit"> <input type="reset" name="reset" value="Clear">
+			    </th>
+			    </tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
